@@ -1,5 +1,6 @@
 package com.example.project1;
 
+import android.content.Context;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -17,6 +18,7 @@ public class HomeActivity extends AppCompatActivity {
     private TabLayout t;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,7 +26,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
         toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        this.setSupportActionBar(toolbar);
 
 
         viewPager = findViewById(R.id.viewpager);
@@ -37,11 +39,6 @@ public class HomeActivity extends AppCompatActivity {
         t.setupWithViewPager(viewPager);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu, menu);
-        return true;
 
-    }
 
 }
