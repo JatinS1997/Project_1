@@ -4,11 +4,11 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.Toolbar;
+import android.support.v7.widget.Toolbar;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Toolbar toolbar;
+    public Toolbar toolbar;
     private ViewPager viewPager;
     private VPadapter vPadapter;
     private TabLayout t;
@@ -23,7 +23,7 @@ public class HomeActivity extends AppCompatActivity {
 
 
         toolbar=findViewById(R.id.toolbar);
-        setActionBar(toolbar);
+        setSupportActionBar(toolbar);
 
 
         viewPager = findViewById(R.id.viewpager);
