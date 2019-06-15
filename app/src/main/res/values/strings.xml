@@ -3,4 +3,12 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item1">Archived</string>
+    <string name="item2">Mark all as read</string>
+    <string name="item3">Blocked Contacts</string>
+    <string name="item4">Messages for web</string>
+    <string name="item5">Dark mode</string>
+    <string name="item6">Settings</string>
+    <string name="item7">Help &amp; feedback</string>
+
 </resources>

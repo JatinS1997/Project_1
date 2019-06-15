@@ -14,16 +14,17 @@
         android:id="@+id/tab"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
+        android:background="#725AC1"
         android:elevation="4dp"
         android:minHeight="?attr/actionBarSize"
-        app:tabMode="fixed"
-        app:tabGravity="fill"
-        app:tabTextColor="#ffffff"
-        app:tabSelectedTextColor="@color/colorAccent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/include">
+        app:layout_constraintTop_toBottomOf="@+id/include"
+        app:tabGravity="fill"
+        app:tabIndicatorColor="#00FFFFFF"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="#8D86C9"
+        app:tabTextColor="#ffffff">
 
     </android.support.design.widget.TabLayout>
 
